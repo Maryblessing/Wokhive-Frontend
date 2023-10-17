@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <h1><b>🕹️🕹️ Workhive Frontend 🕹️🕹️</b></h1>
+</div>
+<a name="readme-top"></a>
+
+<!-- TABLE OF CONTENTS -->
+## 📗 Table of Contents
+
+- [Project Overview](#project-overview)
+    - [Built With](#built-with)
+- [Getting Started](#getting-started)
+    - [Setup](#setup)
+    - [Prerequisites](#prerequisites)
+- [Contributing](#contributing)
+- [License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+## Project Overview
+
+**Workhive** is community-based solution that caters to Freelancers’ operational processes in managing projects and clients, including access to community support.
+
+### Built With
+  <ul>
+    <li><a href="https://nextjs.org/">NextJs</a></li>
+    <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
+    <li><a href="https://tailwindcss.com/">Tailwind Css</a></li>
+  </ul>
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **NodeJs ^16**
+- **NPM**
+
+Before you begin, ensure you have met the following requirements:
+- Node.js and npm installed on your development machine.
+
+### Setup
+Follow these steps to get your project up and running:
+
+1. Fork and Clone this repository to your desired folder using the above command:
+
+  ```sh
+    git clone https://github.com/{username}/Wokhive-Frontend.git
+    cd your-project
+  ```
+
+2. Install project dependencies using npm:
+
+```sh
+  npm install -y
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Start the development server:
+```sh
+  cd my-project
+  npm start
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open <a href="http://localhost:3000/">http://localhost:3000</a> to view project in the browser. The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
+<!-- CONTRIBUTING -->
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
+We welcome contributions from the community to improve our project. If you'd like to contribute, please review our [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to get started.
+Contributions, issues, and feature requests are welcome!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<!-- LICENSE -->
 
-## Deploy on Vercel
+## License <a name="license"></a>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is [Apache](./LICENSE) licensed.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
