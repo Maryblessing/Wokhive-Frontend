@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo '👷 Styling your project before committing👷. please wait.....‍🏗️'
+
+# Check ESLint Standards
+echo '👷 Running Linters fix. please wait.....‍♂️'
+npx lint-staged ||
+(
+    echo '❌ You have a problem in your code. Fix linters error ❌
+          Run: npm run lint. add changes and try committing again.';
+    false;
+)
+
+# Run linters
+echo '👷 Running linters check: please wait.... 🚀'
+npm run lint
+
+# Run test
+echo '👷 Running tests: please wait.... 🚀'
+npm run test
+
+echo '👷 No error found: committing this now.... ✨'
