@@ -1,16 +1,17 @@
 <div align="center">
-  <h1><b>🕹️🕹️ Workhive Frontend 🕹️🕹️</b></h1>
+  <h1><img src="public/assets/images/logo.svg"  alt="logo"/></h1>
 </div>
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
+
 ## 📗 Table of Contents
 
 - [Project Overview](#project-overview)
-    - [Built With](#built-with)
+  - [Built With](#built-with)
 - [Getting Started](#getting-started)
-    - [Setup](#setup)
-    - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -21,6 +22,7 @@
 **Workhive** is community-based solution that caters to Freelancers’ operational processes in managing projects and clients, including access to community support.
 
 ### Built With
+
   <ul>
     <li><a href="https://nextjs.org/">NextJs</a></li>
     <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
@@ -37,17 +39,19 @@
 - **NPM**
 
 Before you begin, ensure you have met the following requirements:
+
 - Node.js and npm installed on your development machine.
 
 ### Setup
+
 Follow these steps to get your project up and running:
 
 1. Fork and Clone this repository to your desired folder using the above command:
 
-  ```sh
-    git clone https://github.com/{username}/Wokhive-Frontend.git
-    cd your-project
-  ```
+```sh
+  git clone https://github.com/{username}/Wokhive-Frontend.git
+  cd your-project
+```
 
 2. Install project dependencies using npm:
 
@@ -56,6 +60,7 @@ Follow these steps to get your project up and running:
 ```
 
 3. Start the development server:
+
 ```sh
   cd my-project
   npm start
@@ -68,6 +73,7 @@ Open <a href="http://localhost:3000/">http://localhost:3000</a> to view project 
 <!-- CONTRIBUTING -->
 
 ## Contributing
+
 We welcome contributions from the community to improve our project. If you'd like to contribute, please review our [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to get started.
 Contributions, issues, and feature requests are welcome!
 
