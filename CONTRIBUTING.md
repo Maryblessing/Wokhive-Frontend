@@ -1,18 +1,19 @@
-# Contributing to Workhive FE
+# Contributing to Wokhive FE
 
-Thank you for your interest in contributing to Workhive open-source project. We welcome contributions from the community to help improve and grow our project. Please take a moment to read through the guidelines below to ensure a smooth and effective collaboration.
+Thank you for your interest in contributing to Wokhive open-source project. We welcome contributions from the community to help improve and grow our project. Please take a moment to read through the guidelines below to ensure a smooth and effective collaboration.
 
 <a name="readme-top"></a>
 
 ## Table of Contents
+
 - [Getting Started](#getting-started)
 - [How to Contribute](#how-to-contribute)
-    - [Bug Reports](#bug-reports)
-    - [Feature Requests](#feature-requests)
-    - [Code Contributions](#code-contributions)
+  - [Bug Reports](#bug-reports)
+  - [Feature Requests](#feature-requests)
+  - [Code Contributions](#code-contributions)
 - [Development Guidelines](#development-guidelines)
-    - [Coding Standards](#coding-standards)
-    - [Version Control](#version-control)
+  - [Coding Standards](#coding-standards)
+  - [Version Control](#version-control)
 - [Commit CheatSheet](#commit-cheatsheet)
 - [Submitting a Pull Request](#submitting-a-pull-request)
 - [Code of Conduct](#code-of-conduct)
@@ -29,6 +30,7 @@ and that you are familiar with the project's goals and features.
 ### Bug Reports
 
 If you encounter a bug or issue with the project, please follow these steps:
+
 1. Check if the issue has already been reported in our [Issues](../../issues/) page.
 2. If not, create a new issue, providing a detailed description of the problem, including your environment setup and any relevant error messages.
 3. You can also submit a bug fix as described in the [Code Contributions](#code-contributions) section.
@@ -36,6 +38,7 @@ If you encounter a bug or issue with the project, please follow these steps:
 ### Feature Requests
 
 If you have an idea for a new feature or improvement, please follow these steps:
+
 1. Check if the feature request already exists in our [GitHub Issues](../../issues/) page.
 2. If not, create a new feature request issue with a clear and concise description of your proposed feature.
 
@@ -72,19 +75,19 @@ We appreciate contributions in the form of bug fixes, new features, and enhancem
 
 ## Commit CheatSheet
 
-| Type     | Title                    | Description                                                                                               |
-| -------- |--------------------------| --------------------------------------------------------------------------------------------------------- |
-| feat     | Features                 | A new feature                                                                                             |
-| fix      | Bug Fixes                | A bug fix                                                                                                 |
-| docs     | Documentation            | Documentation only changes                                                                                |
-| style    | Styles                   | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)    |
-| refactor | Code Refactoring         | A code change that neither fixes a bug nor adds a feature                                                 |
-| perf     | Performance Improvements | A code change that improves performance                                                                   |
-| test     | Tests                    | Adding missing tests or correcting existing tests                                                         |
-| build    | Builds                   | Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)       |
+| Type     | Title                    | Description                                                                                                 |
+| -------- | ------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| feat     | Features                 | A new feature                                                                                               |
+| fix      | Bug Fixes                | A bug fix                                                                                                   |
+| docs     | Documentation            | Documentation only changes                                                                                  |
+| style    | Styles                   | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)      |
+| refactor | Code Refactoring         | A code change that neither fixes a bug nor adds a feature                                                   |
+| perf     | Performance Improvements | A code change that improves performance                                                                     |
+| test     | Tests                    | Adding missing tests or correcting existing tests                                                           |
+| build    | Builds                   | Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)         |
 | ci       | Continuous Integrations  | Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs) |
-| chore    | Chores                   | Other changes that don't modify frontend or test files                                                    |
-| revert   | Reverts                  | Reverts a previous commit                                                                                 |
+| chore    | Chores                   | Other changes that don't modify frontend or test files                                                      |
+| revert   | Reverts                  | Reverts a previous commit                                                                                   |
 
 > _Sample Commit Messages_
 
@@ -96,6 +99,7 @@ We appreciate contributions in the form of bug fixes, new features, and enhancem
 ## Submitting a Pull Request
 
 When submitting a pull request, please provide the following details:
+
 - A descriptive title for your pull request.
 - A clear and concise description of your changes.
 - Follow the PR description template

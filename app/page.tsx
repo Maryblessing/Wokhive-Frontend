@@ -1,3 +1,4 @@
+import Wokhive from '@components/Wokhive';
 export default function Home() {
-  return <h1 className='text-3xl font-bold underline'>Workhive</h1>;
+  return <Wokhive />;
 }

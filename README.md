@@ -19,7 +19,7 @@
 
 ## Project Overview
 
-**Workhive** is community-based solution that caters to Freelancers’ operational processes in managing projects and clients, including access to community support.
+**Wokhive** is community-based solution that caters to Freelancers’ operational processes in managing projects and clients, including access to community support.
 
 ### Built With
 
