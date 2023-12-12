@@ -2,7 +2,88 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-whyte);
+}
+
+p,
+a,
+span,
+li,
+button {
+  font-family: var(--font-romela);
+}
+
+.btn {
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.btn:hover {
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.btn:focus {
+  box-shadow:
+    0px 0px 0px 4px #f4ebff,
+    0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.btn:disabled {
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.heroPage-img {
+  box-shadow: 0px -10px 30px 46px rgba(192, 187, 204, 0.1);
+}
+
+.hero-img-bottom-gradient {
+  height: 44px;
+  background: linear-gradient(0deg, #fafafa 50%, rgba(249, 249, 250, 0) 100%);
+  filter: blur(10px);
+}
+
+.testimonial-scroll,
+.testimonial-scroll-reverse {
+  flex: 0 0 auto;
+  min-width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation: scroll 60s linear 0s infinite;
+  animation-play-state: running;
+  animation-delay: 0s;
+  animation-direction: normal;
+}
+
+.testimonial-scroll-reverse {
+  animation-direction: reverse;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* @keyframes reverseScroll {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(10%);
+  }
+} */
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -18,10 +99,5 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+} */
