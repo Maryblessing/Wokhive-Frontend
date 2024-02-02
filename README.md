@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><img src="public/assets/images/logo.svg"  alt="logo"/></h1>
+  <h1><img src="public/assets/images/svgs//logo.svg"  alt="logo"/></h1>
 </div>
 <a name="readme-top"></a>
 
