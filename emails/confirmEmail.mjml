@@ -1,0 +1,102 @@
+<mjml>
+  <mj-head>
+    <mj-title> Confirm your email address </mj-title>
+    <mj-font
+      name="romela"
+      href="https://github.com/RoadTrip-Community/Wokhive-Frontend/blob/dev/public/assets/fonts/romela/Romela-Regular.woff"
+    />
+    <mj-font
+      name="whyteInktrap"
+      href="https://github.com/RoadTrip-Community/Wokhive-Frontend/blob/dev/public/assets/fonts/whyte_inktrap/WhyteInktrap-Regular.woff2"
+    />
+    <mj-attributes>
+      <mj-text font-family="romela, Helvetica, Arial, sans-serif" font-size="16px" color="#384860" line-height="24px" />
+      <mj-button
+        align="left"
+        font-size="16px"
+        font-weight="bold"
+        height="46px"
+        padding="0 0 42px"
+        background-color="#423366"
+        color="#ffffff"
+        border-radius="6px"
+        text-align="left"
+        font-family="whyteInktrap, Helvetica, Arial, sans-serif"
+      />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#FFF">
+    <mj-wrapper>
+      <mj-section padding="40px 40px 20px">
+        <mj-column>
+          <mj-image src="" alt="Wokhive Logo" width="121px" height="30px" padding="0 0 20px" align="left" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section padding="0 40px">
+      <mj-column>
+        <mj-text
+          align="left"
+          font-size="24px"
+          font-weight="bold"
+          padding="0 0 20px"
+          color="#625580"
+          font-family="whyteInktrap, sans-serif"
+        >
+          Confirm your email address
+        </mj-text>
+        <mj-text align="left" padding="0 0 20px"> Hello ${name}, </mj-text>
+        <mj-text align="left" padding="0 0 20px">
+          We’re thrilled to have you join the wokhive family, where opportunities meet talent.
+        </mj-text>
+        <mj-text align="left" padding="0 0 20px">
+          Your journey towards freelance success begins here and we are here to support you every step of the way.
+          Kindly log into your dashboard to enjoy our broad freelance opportunities.
+        </mj-text>
+        <mj-text align="left" padding="0 0 40px">
+          Thanks, <br />
+          The Wokhive Team.
+        </mj-text>
+        <mj-button href="${url}"> Confirm email address </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 40px 0">
+      <mj-column>
+        <mj-text align="left" padding="24px 0 20px">
+          This email was sent to <a href="{`mailto:${email}`}" color="#423366">${email}</a>. If you'd rather not receive
+          this kind of email, Don’t want any more emails from Wokhive? <a href="#" color="#423366">Unsubscribe</a>.
+        </mj-text>
+        <mj-text align="left" padding="0 0 20px"> © ${year} Wokhive. All rights reserved. </mj-text>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="left" padding="0 0 20px">
+          <mj-social-element
+            name="web"
+            href=""
+            src="https://img.icons8.com/ios-glyphs/50/667085/facebook-new.png"
+            background-color="#FFFFFF"
+          />
+          <mj-social-element
+            name="web"
+            href=""
+            src="https://img.icons8.com/ios-glyphs/50/667085/twitter.png"
+            background-color="#FFFFFF"
+          />
+          <mj-social-element
+            name="web"
+            href=""
+            src="https://img.icons8.com/ios/50/667085/instagram-new.png"
+            background-color="#FFFFFF"
+          />
+          <mj-social-element
+            name="web"
+            href=""
+            src="https://img.icons8.com/ios-glyphs/50/667085/linkedin.png"
+            background-color="#FFFFFF"
+          />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
