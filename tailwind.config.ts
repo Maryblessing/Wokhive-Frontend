@@ -9,7 +9,31 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        scroll: 'scroll 60s linear infinite',
+        'scroll-reverse': 'scroll 60s linear infinite reverse',
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      boxShadow: {
+        'shadow/xs': '0px 1px 2px 0px rgba(16, 24, 40, 0.05)',
+        'shadow/lg': '0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08)',
+        'shadow/focused': '0px 0px 0px 4px #F2F4F7',
+        'shadow-1': ' 0px 12px 24px 0px rgba(169, 169, 169, 0.12)',
+      },
       colors: {
+        primary: {
+          25: '#FCFAFF',
+          50: '#F9F5FF',
+          200: '#E9D7FE',
+          300: '#D6BBFB',
+          700: '#6941C6',
+          800: '#53389E',
+        },
         grey: {
           'grey-1': '#393939',
           'grey-2': '#585858',
@@ -33,6 +57,7 @@ const config: Config = {
           900: '#101828',
           950: '#0C111D',
         },
+
         'primary-milk': {
           10: '#FFF6EE',
           20: '#FFF0E3',
@@ -47,7 +72,7 @@ const config: Config = {
           110: '#332A22',
         },
         'primary-purple': {
-          10: '#D9D6E0',
+          10: '#FCFCFC',
           20: '#C0BBCC',
           30: '#A099B2',
           40: '#817799',
@@ -111,88 +136,114 @@ const config: Config = {
           100: '#464355',
           110: '#2A2833',
         },
+        error: {
+          error: '#EB5757',
+          25: '#FFFBFA',
+          50: '#FEF3F2',
+          100: '#FEE4E2',
+          200: '#FECDCA',
+          300: '#FDA29B',
+          600: '#D92D20',
+          700: '#B42318',
+          800: '#912018',
+        },
         warning: '#E2B93B',
-        error: '#EB5757',
         success: '#27AE60',
         secondary: '#3A383F',
       },
       fontSize: {
-        xs: [
+        'Text-xs': [
           '12px',
           {
             lineHeight: '18px',
+            letterSpacing: '0%',
           },
         ],
-        sm: [
+        'Text-sm': [
           '14px',
           {
-            lineHeight: '21px',
+            lineHeight: '20px',
+            letterSpacing: '0%',
           },
         ],
-        base: [
+        'Text-md': [
           '16px',
           {
             lineHeight: '24px',
+            letterSpacing: '0%',
           },
         ],
-        lg: [
+        'Text-lg': [
           '18px',
           {
             lineHeight: '28px',
+            letterSpacing: '0%',
           },
         ],
-        xl: [
-          '21px',
+        'Text-xl': [
+          '20px',
           {
             lineHeight: '30px',
+            letterSpacing: '0%',
           },
         ],
-        '2xl': [
+        'Display-xs': [
           '24px',
           {
             lineHeight: '32px',
+            letterSpacing: '0%',
           },
         ],
-        '3xl': [
+        'Display-sm': [
           '30px',
           {
             lineHeight: '38px',
+            letterSpacing: '0%',
           },
         ],
-        '4xl': [
+        'Display-extra': [
           '33px',
           {
             lineHeight: '45px',
+            letterSpacing: '0%',
           },
         ],
-        '5xl': [
+        'Display-md': [
           '36px',
           {
             lineHeight: '44px',
+            letterSpacing: '-2%',
           },
         ],
-        '6xl': [
+        'Display-lg': [
           '48px',
           {
             lineHeight: '54px',
+            letterSpacing: '-2%',
           },
         ],
-        '7xl': [
+        'Display-xl': [
           '60px',
           {
             lineHeight: '72px',
+            letterSpacing: '-2%',
           },
         ],
-        '8xl': [
+        'Display-2xl': [
           '72px',
           {
             lineHeight: '90px',
+            letterSpacing: '-2%',
           },
         ],
       },
       fontFamily: {
         romela: 'var(--font-romela)',
         whyte: 'var(--font-whyte)',
+        inter: 'var(--font-inter)',
+      },
+      screens: {
+        super: '1400px',
       },
     },
     plugins: [],

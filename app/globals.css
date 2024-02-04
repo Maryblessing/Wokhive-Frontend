@@ -14,90 +14,58 @@ h6 {
 p,
 a,
 span,
-li,
-button {
+li {
   font-family: var(--font-romela);
 }
 
-.btn {
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+button,
+input,
+input::placeholder,
+textarea,
+textarea::placeholder {
+  font-family: var(--font-inter);
 }
 
-.btn:hover {
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+select.hide-caret {
+  appearance: none;
 }
 
-.btn:focus {
-  box-shadow:
-    0px 0px 0px 4px #f4ebff,
-    0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+input[type='password']::-ms-reveal,
+input[type='password']::-ms-clear {
+  display: none !important;
 }
 
-.btn:disabled {
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+input[type='number']::-webkit-inner-spin-button {
+  display: none;
 }
 
-.heroPage-img {
-  box-shadow: 0px -10px 30px 46px rgba(192, 187, 204, 0.1);
+/* Fallback for other browsers */
+input[type='number'] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
 }
 
-.hero-img-bottom-gradient {
-  height: 44px;
-  background: linear-gradient(0deg, #fafafa 50%, rgba(249, 249, 250, 0) 100%);
-  filter: blur(10px);
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
 }
 
-.testimonial-scroll,
-.testimonial-scroll-reverse {
-  flex: 0 0 auto;
-  min-width: 100%;
-  z-index: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  animation: scroll 60s linear 0s infinite;
-  animation-play-state: running;
-  animation-delay: 0s;
-  animation-direction: normal;
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-.testimonial-scroll-reverse {
-  animation-direction: reverse;
+::-webkit-scrollbar-thumb {
+  background: #372b55;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+::-webkit-scrollbar-thumb:hover {
+  background: #6941c6;
 }
 
-/* @keyframes reverseScroll {
-  0% {
-    transform: translateX(200%);
-  }
-  100% {
-    transform: translateX(10%);
-  }
-} */
-
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+::selection {
+  color: white;
+  background: #372b55;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
-} */
