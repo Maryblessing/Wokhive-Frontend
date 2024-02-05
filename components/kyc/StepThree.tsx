@@ -1,7 +1,7 @@
 import React from 'react';
 import { NextPage } from 'next';
-import freelancerImage from '@/public/assets/images/svgs/freelancerKycIcon.svg';
-import clientImage from '@/public/assets/images/svgs/clientKycIcon.svg';
+import freelancerImage from '@/public/assets/images/svgs/freelancerVerified.svg';
+import clientImage from '@/public/assets/images/svgs/clientVerified.svg';
 import Image from 'next/image';
 import Button from '../UI/Button';
 
