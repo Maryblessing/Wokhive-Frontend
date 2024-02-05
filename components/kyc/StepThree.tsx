@@ -10,12 +10,8 @@ const KycStepThree: NextPage<{
 }> = ({ type }) => {
   return (
     <div className='flex flex-col gap-10 items-center w-full'>
-      <Image
-        alt='Kyc'
-        height={120}
-        src={type === 'client' ? clientImage : type === 'freelancer' && freelancerImage}
-        width={120}
-      />
+      {type === 'client' && <Image alt='Kyc' height={120} src={clientImage} width={120} />}
+      {type === 'freelancer' && <Image alt='Kyc' height={120} src={freelancerImage} width={120} />}
 
       <Button size='xl' width='100%'>
         Close
